@@ -1,0 +1,105 @@
+{
+	"fixed-business-version": "0.0.0",
+	"pub_url": "giorgio.cangioli@gmail.com",
+	"source": "ig.xml",
+	"tool": "jekyll",
+	"extensions": [],
+	"broken-links": "warning",
+	"paths": {
+		"output": "docs",
+		"history": "source/history",
+		"resources": [
+			"source",  "source/examples"
+		],
+		"txCache": "generated_output/txCache",
+		"qa": "generated_output/qa",
+		"temp": "generated_output/temp",
+		"pages": [
+			"framework", "source/pages"
+		],
+		"specification": "http://hl7.org/fhir/R4"
+	},
+	"license": "CC0-1.0",
+	"contact": [
+		{
+			"value": "mailto:giorgio.cangioli@gmail.com",
+			"system": "email"
+		}, {
+			"value": "http://hl7.it",
+			"system": "url"
+		}
+	],
+	"do-transforms": "false",
+	"allviews": "true",
+	"igtemplate-dir": "IG-Template2-master",
+	"resources": {		
+				"Patient/2718871": {
+			"source": "FHIR_Patient_FVG.json"
+		},
+		"Patient/test": {
+			"source": "Patient-test.xml"
+		}
+	},
+	"npm-name": "hl7.fhir.it",
+	"status": "draft",
+	"sct-edition": "http://snomed.info/sct/731000124108",
+	"extraTemplates": [],
+	"spreadsheets": [],
+	"canonicalBase": "http://hl7.it/fhir",
+	"logging": [
+		"progress"
+	],
+	"swagger": [
+		{
+			"capabilities": "server",
+			"mode": "single"
+		}
+	],
+	"gen-examples": "false",
+	"no-inactive-codes": "false",
+	"topofpage": "true",
+	"name": "HL7 Italia FHIR Home Page",
+	"defaults": {
+		"CodeSystem": {
+			"template-base": "base.html"
+		},
+		"OperationDefinition": {
+			"template-base": "base.html"
+		},
+		"Patient": {
+			"template-base": "ex.html"
+		},
+		"SearchParameter": {
+			"template-base": "base.html"
+		},
+		"ValueSet": {
+			"template-base": "base.html"
+		},
+		"StructureDefinition": {
+			"template-defns": "sd-definitions.html",
+			"template-mappings": "sd-mappings.html",
+			"template-base": "sd.html"
+		},
+		"ConceptMap": {
+			"template-base": "base.html"
+		},
+		"Any": {
+			"xml": true,
+			"ttl": false,
+			"swagger": "false",
+			"template-base": "base.html",
+			"template-format": "format.html"
+		},
+		"Basic": {
+			"template-base": "ex.html"
+		},
+		"CapabilityStatement": {
+			"template-base": "base.html"
+		}
+	},
+	"dependencyList": [],
+	"publisher": "Giorgio Cangioli",
+	"title": "HL7 Italia FHIR Home Page",
+	"working-dir": "/C/msys64/home/Giorgio/_github/hl7.it.fhir",
+	"version": "4.0.1"
+}
